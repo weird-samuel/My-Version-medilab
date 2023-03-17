@@ -1,0 +1,534 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+.firstbar {
+    background-color: #e2e1e1;
+    font-size: 1rem;
+}
+
+.nav-link {
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+    border-bottom: 3px solid white;
+    transition: 1s;
+}
+
+.nav-link.active {
+    color: rgb(0, 166, 235);
+    border-bottom: 3px solid rgb(0, 166, 235);
+}
+
+.nav-link:hover {
+    color: rgb(0, 166, 235);
+    border-bottom: 3px solid rgb(0, 166, 235);
+    transition: 0.7s;
+}
+
+#col {
+    color: #08508b;
+}
+
+.list {
+    margin-left: auto;
+}
+
+.hero {
+    width: 100%;
+    height: 70vh;
+    background: url(./img/hero-bg.jpg) no-repeat top center;
+    background-attachment: fixed;
+}
+
+.welcome h4 {
+    font-weight: 400;
+    color: rgb(44, 73, 100);
+}
+
+.welcome h2 {
+    margin-bottom: 20%;
+}
+
+.welcome h1 {
+    color: rgb(44, 73, 100);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.meh {
+    background-color: white;
+    width: 100%;
+}
+
+.aboutImg {
+    background: url(img/about.jpg) center top no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.aboutIcon {
+    color: rgb(32, 123, 187);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(141, 194, 241);
+    transition: 0.7s;
+}
+
+.abRow:hover .aboutIcon {
+    color: white;
+    background-color: rgb(32, 123, 187);
+    border: 0;
+    transition: 0.7s;
+}
+
+.aboutText h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(44, 73, 100);
+    margin-bottom: 20px;
+}
+
+.abText a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.abText a:hover {
+    color: rgb(0, 166, 235);
+    ;
+}
+
+.crod {
+    color: white;
+    background-color: rgb(25, 119, 204);
+    position: absolute;
+    bottom: 25%;
+    height: 500px;
+}
+
+.mya {
+    background-color: rgb(25, 119, 204);
+    position: absolute;
+    bottom: 15%;
+}
+
+.p {
+    font-size: large;
+}
+
+.bg-count {
+    padding-top: 5%;
+    background-color: #f1f7fd;
+}
+
+.counter {
+    margin-top: -35%;
+    padding: 10px;
+    border: 3px solid #08508b;
+    background-color: #08508b;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.Medilab {
+    color: rgb(44, 73, 100);
+    text-decoration: none;
+}
+
+.Medilab:hover {
+    color: rgb(44, 73, 100);
+}
+
+.service h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(44, 73, 100);
+    margin-bottom: 30px;
+}
+
+.service h2 {
+    position: relative;
+}
+
+.service h2::after {
+    content: '';
+    border-bottom: 3.5px solid rgb(25, 119, 204);
+    width: 40px;
+    position: absolute;
+    bottom: -14.5px;
+    left: calc(50% - 20px);
+}
+
+.service h2::before {
+    bottom: -13px;
+    width: 110px;
+    content: '';
+    border-bottom: 1px solid rgba(126, 126, 126, 0.3);
+    position: absolute;
+    left: calc(50% - 55px);
+}
+
+.servicei {
+    font-size: 30px;
+    color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgb(25, 119, 204);
+    box-shadow: -10px -10px 0px rgb(186, 218, 247);
+}
+
+.serviceCont {
+    border: 1px solid rgba(0, 166, 235, 0.4);
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.serviceCont:hover {
+    background-color: rgb(8, 125, 175);
+    color: white;
+    transition: 0.5s;
+}
+
+.serviceCont:hover .servicei {
+    background-color: white;
+    color: rgb(8, 125, 175);
+}
+
+.serviceCont:hover h5 {
+    color: white;
+    transition: 0.5s;
+}
+
+.deptText h2 {
+    line-height: 2;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.deptText p {
+    color: gray;
+}
+
+.deptLinks .nav-item {
+    border: 0;
+    margin: 0;
+}
+
+.deptLinks .nav-item .nav-link.active {
+    color: rgb(25, 119, 204);
+    border-right: 3px solid rgb(25, 119, 204);
+}
+
+.deptLinks .nav-item .nav-link {
+    color: rgb(69, 69, 69);
+    font-size: 15px;
+    padding: 13px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 0;
+    border-right: 2px solid #ebf1f6;
+}
+
+.deptLinks .nav-item .nav-link:hover {
+    color: rgb(25, 119, 204);
+}
+
+.smallline {
+    width: 55px;
+    height: 1px;
+    background: #b2c8dd;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.memb {
+    width: 15px;
+    height: 15px;
+    color: #e2e1e1;
+    padding: 5px;
+    background-color: #83beee;
+    border: 2px solid #83beee;
+    border-radius: 50%;
+}
+
+.memb:hover {
+    color: #e2e1e1;
+    background-color: #014f8f;
+    border: 2px solid #014f8f;
+    transition: 0.7s;
+}
+
+.img-holder {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.myimg:hover {
+    overflow: hidden;
+    width: 180px;
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+.docard {
+    margin: auto;
+}
+
+.docard:hover .myimg {
+    transform: scale(1.1);
+    transition: ease-in-out 0.7s;
+}
+
+.mycordi {
+    text-decoration: none;
+    padding-left: 5%;
+    font-weight: 500;
+}
+
+.mycordii {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #0d6efd;
+    border-radius: 50%;
+    padding: 0.3%;
+}
+
+.testText {
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 10px rgba(189, 187, 187, 0.3);
+}
+
+.testCont {
+    padding: 40px;
+}
+
+.testImg {
+    float: left;
+    margin-left: -110px;
+}
+
+.testCont img {
+    width: 90px;
+    border-radius: 10px;
+}
+
+.testCont h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.testCont h4 {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    margin: 0;
+}
+
+.testCont p {
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.galleryImg {
+    overflow: hidden;
+}
+
+.galleryImg:hover img {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+.galleryCol {
+    margin-bottom: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+}
+
+.contIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(214, 233, 250);
+    transition: 0.5s;
+}
+
+.contIcon i {
+    color: rgb(25, 119, 204);
+    font-size: 20px;
+}
+
+.contHover:hover .contIcon {
+    background-color: rgb(25, 119, 204);
+    transition: 0.5s;
+}
+
+.contHover:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.contText h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(44, 73, 100);
+}
+
+.contText p {
+    font-size: 14px;
+    color: rgb(75, 125, 171);
+}
+
+.foot {
+    padding-top: 60px;
+    margin-top: 60px;
+    box-shadow: 0px 2px 15px rgb(25 119 204 / 10%);
+}
+
+.footLink a {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footLink a:hover {
+    color: rgb(48, 108, 163);
+    transition: 0.3s;
+}
+
+.footText h2 {
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.footText h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footText p {
+    font-size: 14px;
+}
+
+.footLink h4 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footForm {
+    margin-top: 30px;
+    background: #fff;
+    padding-top: 1px;
+    padding-left: 21%;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #bfdcf7;
+}
+
+.mail {
+    border: 0;
+}
+
+.endIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(25, 119, 204);
+    transition: 0.5s;
+}
+
+.endIcon i {
+    color: white;
+    font-size: 15px;
+}
+
+@media screen and (max-width:100px) {
+    .container {
+        font-size: 10px;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+
+    .nav-link {
+        border-bottom: none;
+        margin-left: 0%;
+    }
+
+    .nav-link.active {
+        border-bottom: none;
+    }
+
+    .nav-link:hover {
+        border-bottom: none;
+    }
+
+    .aboutIcon {
+        margin-top: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .abText a {
+        font-size: 10px;
+    }
+
+    .p {
+        font-size: small;
+    }
+
+    .bg-count {
+        padding-top: 15%;
+    }
+
+}

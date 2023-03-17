@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medilab</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="./lib/OwlCarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./lib/OwlCarousel/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./lib/glightbox-master/dist/css/glightbox.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <div class="container-fluid firstbar p-1">
+    <div class="container  justify-content-between">
+      <div class="row">
+        <div class="col-lg-6">
+          <p><i class="fa-solid fa-envelope me-2" style="color: rgb(32, 123, 187);"></i>contact@example.com <i
+              class="fa-solid fa-phone me-2 ms-2" style="color: rgb(32, 123, 187);"></i>+1 5589 55488 55</p>
+        </div>
+        <div class="col-lg-6 text-end d-none d-lg-block">
+          <i class="fa-brands fa-twitter mx-1" style="color: rgb(32, 123, 187);"></i>
+          <i class="fa-brands fa-facebook-f mx-1" style="color: rgb(32, 123, 187);"></i>
+          <i class="fa-brands fa-instagram mx-1" style="color: rgb(32, 123, 187);"></i>
+          <i class="fa-brands fa-skype mx-1" style="color: rgb(32, 123, 187);"></i>
+          <i class="fa-brands fa-linkedin mx-1" style="color: rgb(32, 123, 187);"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar bg-light navbar-expand-lg sticky-top ">
+    <div class="container ms-4 me-3">
+      <a class="fs-2 fw-bold Medilab" href="#">Medilab</a>
+      <div class="nav-item">
+        <a class="btn btn-primary rounded-pill text-white d-lg-none d-md-inline" href="#Appointment">Appointment</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav p-2 list mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-secondary" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#Services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#Departments">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#Doctors">Doctors</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown dropdown-toggle text-secondary" href="#" role="button"
+              data-bs-toggle="dropdown">Drop
+              Down</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link</a></li>
+              <li><a class="dropdown-item" href="#">Another link</a></li>
+              <li><a class="dropdown-item" href="#">A third link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#Appointment" class="btn btn-primary rounded-pill d-none d-lg-inline"><span>Make an</span>
+        Appointment</a>
+    </div>
+  </nav>
+
+  <div id="Home" class="hero container-fluid d-flex align-items-center">
+    <div class="welcome container">
+      <h1>WELCOME TO MEDILAB</h1>
+      <h4>We are team of talented designers making websites with Bootstrap</h4><br>
+      <a class="btn btn-primary rounded-pill px-5" href="#">Get Started</a>
+    </div>
+  </div>
+  <div class="meh container-fluid">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-4">
+          <div class="card crod bg-primary p-4" style=" border-radius: 20px;">
+            <div class="card-body">
+              <h1 class="card-title mb-3">Why Choose Medilab?</h1>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis,
+                recusandae cum excepturi iste nemo. Distinctio quas facere ut nemo obcaecati? Enim, at consequuntur
+                voluptatibus excepturi nulla est laudantium dolores!</p>
+            </div>
+            <a style="width: 10rem;" class="text-light btn btn-info rounded-pill align-self-center"> Learn More &gt</a>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <div class="card mya text-center py-5 mb-1 " style="border-radius: 10px">
+                <i class="fa-solid fa-scroll text-primary fs-3"></i>
+                <div class="card-body">
+                  <h5 class="card-title fs-4">Corporis voluptates sit</h5>
+                  <p class="card-text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
+                    aliquip</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="card mya text-center py-5 " style="border-radius: 10px">
+                <i class="fa-solid fa-cube text-primary fs-3"></i>
+                <div class="card-body">
+                  <h5 class="card-title fs-4">Ullamco laboris ladore pan</h5>
+                  <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4   col-sm-6">
+              <div class="card mya text-center py-5 " style="border-radius: 10px">
+                <i class="fa-solid fa-images text-primary fs-3"></i>
+                <div class="card-body">
+                  <h5 class="card-title fs-4">Labore consequatur</h5>
+                  <p class="card-text">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid ps-0 mb-5" id="About">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="aboutImg">
+
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="aboutText">
+          <div class="container-fluid text-wrap pt-5">
+            <h2>Enim quis est voluptatibus aliquid consequatur fugiat</h2>
+            <p class="mb-5">Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam
+              et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi.
+              Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+            <div class="container my-4">
+              <div class="abRow row">
+                <div class="col-1 p-0">
+                  <div class="aboutIcon">
+                    <i class="fa-solid fa-fingerprint" style="font-size: 30px;"></i>
+                  </div>
+                </div>
+                <div class="abText col-10 ps-4">
+                  <a href="#">Lorem Ipsum</a><br>
+                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                    occaecati cupiditate non provident</p>
+                </div>
+              </div>
+            </div>
+            <div class="container my-4">
+              <div class="abRow row">
+                <div class="col-1 p-0">
+                  <div class="aboutIcon">
+                    <i class="fa-solid fa-gift" style="font-size: 30px;"></i>
+                  </div>
+                </div>
+                <div class="abText col-10 ps-4">
+                  <a href="#">Nemo Enim</a><br>
+                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium voluptatum deleniti atque</p>
+                </div>
+              </div>
+            </div>
+            <div class="container my-4">
+              <div class="abRow row">
+                <div class="col-1 p-0">
+                  <div class="aboutIcon">
+                    <i class="fa-solid fa-atom" style="font-size: 30px;"></i>
+                  </div>
+                </div>
+                <div class="abText col-10 ps-4">
+                  <a href="#">Dine Pad</a><br>
+                  <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt
+                    aut deserunt minus aut eligendi omnis</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-fluid bg-count">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-5">
+        <div class="text-center bg-white py-3">
+          <i class="fs-1 counter fa-solid fa-user-doctor " style="color: white;"></i>
+          <h1>85</h1>
+          <p>Doctors</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+        <div class="text-center bg-white py-3">
+          <i class="fs-1 counter fa-solid fa-building" style="color: white;"></i>
+          <h1>18</h1>
+          <p>Departments</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+        <div class="text-center bg-white py-3">
+          <i class="fs-1 counter fa-solid fa-flask" style="color: white;"></i>
+          <h1>12</h1>
+          <p>Research Labs</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="text-center bg-white py-3">
+          <i class="fs-1 counter fa-solid fa-award" style="color: white;"></i>
+          <h1>150</h1>
+          <p>Awards</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5" id="Services">
+    <div class="service container text-center mb-5">
+      <h2>Services</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+        sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="serviceCont text-center py-5 px-3">
+            <br>
+            <i class="servicei fa-solid fa-heart-pulse"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p><br>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="serviceCont text-center py-5 px-3">
+            <br>
+            <i class="servicei fa-solid fa-tablets"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p><br>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="serviceCont text-center py-5 px-3">
+            <br>
+            <i class="servicei fa-solid fa-hospital-user"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p><br>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="serviceCont text-center py-5 px-3">
+            <br>
+            <i class="servicei fa-solid fa-dna "></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p><br>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="serviceCont text-center py-5 px-3">
+            <br>
+            <i class="servicei fa-solid fa-wheelchair"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p><br>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="serviceCont text-center py-5 px-3">
+            <br>
+            <i class="servicei fa-solid fa-kit-medical"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-count container-fluid p-5" id="Appointment">
+    <div class="service container text-center mt-3 mb-3">
+      <h2>Make an Appointment</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+        sit in iste officiis commodi quidem hic quas.</p>
+
+      <form class="form">
+        <div class="row">
+          <div class="col-md-4 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 form-group mt-3">
+            <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date">
+          </div>
+          <div class="col-md-4 form-group mt-3">
+            <select name="department" id="department" class="form-select">
+              <option value="">Select Department</option>
+              <option value="Department 1">Department 1</option>
+              <option value="Department 2">Department 2</option>
+              <option value="Department 3">Department 3</option>
+            </select>
+          </div>
+          <div class="col-md-4 form-group mt-3">
+            <select name="doctor" id="doctor" class="form-select">
+              <option value="">Select Doctor</option>
+              <option value="Doctor 1">Doctor 1</option>
+              <option value="Doctor 2">Doctor 2</option>
+              <option value="Doctor 3">Doctor 3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group mt-3 ">
+          <textarea class="form-control mb-5" name="message" rows="6" placeholder="Message (Optional)"></textarea>
+        </div>
+        <div class="mb-3">
+        </div>
+        <a href="#Appointment" class="btn btn-primary rounded-pill d-lg-inline p-3 "><span>Make an</span>
+          Appointment</a>
+      </form>
+    </div>
+  </div>
+  <div class="container-fluid mt-5" id="Departments">
+    <div class="service container text-center mb-5">
+      <h2>Departments</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+        sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-sm-3">
+          <ul class="deptLinks nav nav-tabs flex-column" style="border: 0;">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" href="#cardiology">Cardiology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " data-bs-toggle="tab" href="#neurology">Neurology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#hepatology">Hepatology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#pediatrics">Pediatrics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#eyecare">Eye Care</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-9">
+          <div class="tab-content">
+            <div class="container-fluid tab-pane active fade show" id="cardiology">
+              <div class="row">
+                <div class="deptText col-md-8">
+                  <h2>Cardiology</h2>
+                  <p style="font-style: italic;">Qui laudantium consequatur laborum sit qui ad
+                    sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                  <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum
+                    eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat
+                    minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui
+                    similique accusamus nostrum rem vero</p>
+                </div>
+                <div class="deptImg col-md-4">
+                  <img src="img/departments-1.jpg" alt="dept" width="80%">
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid tab-pane  fade show" id="neurology">
+              <div class="row">
+                <div class="deptText col-md-8">
+                  <h2>Et blanditiis nemo veritatis excepturi</h2>
+                  <p style="font-style: italic;">Qui laudantium consequatur laborum sit qui ad
+                    sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                  <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et
+                    reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit
+                    ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna
+                    desera vafle de nideran pal</p>
+                </div>
+                <div class="deptImg col-md-4">
+                  <img src="img/departments-2.jpg" alt="dept" width="80%">
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid tab-pane fade show" id="hepatology">
+              <div class="row">
+                <div class="deptText col-md-8">
+                  <h2>Eimpedit facilis occaecati odio neque aperiam sit</h2>
+                  <p style="font-style: italic;">Eos voluptatibus quo. Odio similique illum id quidem
+                    non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat
+                    perferendis aut</p>
+                  <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis
+                    quisquam. Neque necessitatibus illo rerum eum ut.</p>
+                </div>
+                <div class="deptImg col-md-4">
+                  <img src="img/departments-3.jpg" alt="dept" width="80%">
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid tab-pane fade show" id="pediatrics">
+              <div class="row">
+                <div class="deptText col-md-8">
+                  <h2>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h2>
+                  <p style="font-style: italic;">Totam aperiam accusamus. Repellat consequuntur iure
+                    voluptas iure porro quis delectus</p>
+                  <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam
+                    necessitatibus aliquam fugiat debitis quis velit.</p>
+                </div>
+                <div class="deptImg col-md-4">
+                  <img src="img/departments-4.jpg" alt="dept" width="80%">
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid tab-pane fade show" id="eyecare">
+              <div class="row">
+                <div class="deptText col-md-8">
+                  <h2>Est eveniet ipsam sindera pad rone matrelat sando reda</h2>
+                  <p style="font-style: italic;">Omnis blanditiis saepe eos autem qui sunt debitis
+                    porro quia.</p>
+                  <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae
+                    ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet.</p>
+                </div>
+                <div class="deptImg col-md-4">
+                  <img src="img/departments-5.jpg" alt="dept" width="80%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5" id="Doctors">
+    <div class="service container text-center mb-5">
+      <h2>Doctors</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="card mb-3 shadow docard p-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <div class="img-holder">
+                <img src="./img/doctors/doctors-1.jpg" class="img-fluid myimg me-2" alt="doctor">
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Walter White</h5>
+                <p class="card-text">Chief Medical Officer</p>
+                <div class="smallline"></div>
+                <p class="card-text text-muted">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div>
+                  <a href="" style="text-decoration: none;">
+                    <i class="fa-brands fa-twitter mx-1 memb"></i>
+                    <i class="fa-brands fa-facebook-f mx-1 memb"></i>
+                    <i class="fa-brands fa-instagram mx-1 memb"></i>
+                    <i class="fa-brands fa-linkedin mx-1 memb"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 shadow docard p-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <div class="img-holder">
+                <img src="./img/doctors/doctors-2.jpg" class="img-fluid myimg me-2" alt="doctor">
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sarah Jhonson</h5>
+                <p class="card-text">Anesthesiologist</p>
+                <div class="smallline"></div>
+                <p class="card-text text-muted">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <div>
+                  <a href="" style="text-decoration: none;">
+                    <i class="fa-brands fa-twitter mx-1 memb"></i>
+                    <i class="fa-brands fa-facebook-f mx-1 memb"></i>
+                    <i class="fa-brands fa-instagram mx-1 memb"></i>
+                    <i class="fa-brands fa-linkedin mx-1 memb"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 shadow docard p-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <div class="img-holder">
+                <img src="./img/doctors/doctors-3.jpg" class="img-fluid myimg me-2" alt="doctor">
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">William Anderson</h5>
+                <p class="card-text">Cardiology</p>
+                <div class="smallline"></div>
+                <p class="card-text text-muted">Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div>
+                  <a href="" style="text-decoration: none;">
+                    <i class="fa-brands fa-twitter mx-1 memb"></i>
+                    <i class="fa-brands fa-facebook-f mx-1 memb"></i>
+                    <i class="fa-brands fa-instagram mx-1 memb"></i>
+                    <i class="fa-brands fa-linkedin mx-1 memb"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 shadow docard p-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 ">
+              <div class="img-holder">
+                <img src="./img/doctors/doctors-4.jpg" class="img-fluid myimg me-2" alt="doctor">
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Amanda Jepson</h5>
+                <p class="card-text">Neurosurgeon</p>
+                <div class="smallline"></div>
+                <p class="card-text text-muted">Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div>
+                  <a href="" style="text-decoration: none;">
+                    <i class="fa-brands fa-twitter mx-1 memb"></i>
+                    <i class="fa-brands fa-facebook-f mx-1 memb"></i>
+                    <i class="fa-brands fa-instagram mx-1 memb"></i>
+                    <i class="fa-brands fa-linkedin mx-1 memb"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5 p-5 bg-count" id="FAQ">
+    <div class="service container text-center mb-5">
+      <h2>Frequently Asked Questions</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container mt-3">
+      <div id="accordion">
+        <div class="card mb-2">
+          <a class="link btn-block mycordi p-3" data-bs-toggle="collapse" href="#collapseOne">
+            <i class="fa-solid fa-question mycordii"></i>
+            Non consectetur a erat nam at lectus urna duis?</a>
+          <div id="collapseOne" class="collapse collapsed show" data-bs-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2">
+          <a class="link btn-block mycordi p-3" data-bs-toggle="collapse" href="#collapseTwo">
+            <i class="fa-solid fa-question mycordii"></i>
+            Non consectetur a erat nam at lectus urna duis?</a>
+          <div id="collapseTwo" class="collapse collapsed " data-bs-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2">
+          <a class="link btn-block mycordi p-3" data-bs-toggle="collapse" href="#collapseThree">
+            <i class="fa-solid fa-question mycordii"></i>
+            Non consectetur a erat nam at lectus urna duis?</a>
+          <div id="collapseThree" class="collapse collapsed" data-bs-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2">
+          <a class="link btn-block mycordi p-3" data-bs-toggle="collapse" href="#collapseFOne">
+            <i class="fa-solid fa-question mycordii"></i>
+            Non consectetur a erat nam at lectus urna duis?</a>
+          <div id="collapseFOne" class="collapse collapsed" data-bs-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2">
+          <a class="link btn-block mycordi p-3" data-bs-toggle="collapse" href="#collapseVOne">
+            <i class="fa-solid fa-question mycordii"></i>
+            Non consectetur a erat nam at lectus urna duis?</a>
+          <div id="collapseVOne" class="collapse collapsed" data-bs-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonies py-5 mb-5">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="testCont text-wrap">
+            <div class="testText">
+              <div class="testImg" style="width: 90px;">
+                <img src="img/testimonials/testimonials-1.jpg" alt="testimonials">
+              </div>
+              <h3>Saul Goodman</h3>
+              <h4>CEO & Founder</h4>
+              <p><i class="fa-solid fa-quote-left"></i> Proin iaculis purus consequat sem cure digni ssim donec
+                porttitora entum suscipit
+                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                risus at semper <i class="fa-solid fa-quote-right"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testCont text-wrap">
+            <div class="testText">
+              <div class="testImg" style="width: 90px;">
+                <img src="img/testimonials/testimonials-2.jpg" alt="testimonials">
+              </div>
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+              <p><i class="fa-solid fa-quote-left"></i> Export tempor illum tamen malis malis eram quae irure esse
+                labore quem cillum quid cillum
+                eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim
+                culpa. <i class="fa-solid fa-quote-right"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testCont text-wrap">
+            <div class="testText">
+              <div class="testImg" style="width: 90px;">
+                <img src="img/testimonials/testimonials-3.jpg" alt="testimonials">
+              </div>
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+              <p><i class="fa-solid fa-quote-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint
+                quorum nulla quem veniam
+                duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. <i
+                  class="fa-solid fa-quote-right"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testCont text-wrap">
+            <div class="testText">
+              <div class="testImg" style="width: 90px;">
+                <img src="img/testimonials/testimonials-4.jpg" alt="testimonials">
+              </div>
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+              <p><i class="fa-solid fa-quote-left"></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                multos export minim fugiat
+                minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore
+                labore illum veniam. <i class="fa-solid fa-quote-right"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testCont text-wrap">
+            <div class="testText">
+              <div class="testImg" style="width: 90px;">
+                <img src="img/testimonials/testimonials-5.jpg" alt="testimonials">
+              </div>
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+              <p><i class="fa-solid fa-quote-left"></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+                veniam tempor noster
+                veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
+                culpa fore nisi cillum quid. <i class="fa-solid fa-quote-right"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="Gallery">
+    <div class="service container text-center mb-5">
+      <h2>Gallery</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+        sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container-fluid mb-5">
+      <div class="row">
+        <div class="galleryCol col-sm-4 col-md-3">
+          <div class="galleryImg">
+            <img src="img/gallery/gallery-1.jpg" alt="gallery" width="100%" style="transition: 0.5s;">
+          </div>
+        </div>
+        <div class="galleryCol col-sm-4 col-md-3">
+          <div class="galleryImg">
+            <img src="img/gallery/gallery-2.jpg" alt="gallery" width="100%" style="transition: 0.5s;">
+          </div>
+        </div>
+        <div class="galleryCol col-sm-4 col-md-3">
+          <div class="galleryImg">
+            <img src="img/gallery/gallery-3.jpg" alt="gallery" width="100%" style="transition: 0.5s;">
+          </div>
+        </div>
+        <div class="galleryCol col-sm-4 col-md-3">
+          <div class="galleryImg">
+            <img src="img/gallery/gallery-4.jpg" alt="gallery" width="100%" style="transition: 0.5s;">
+          </div>
+        </div>
+        <div class="galleryCol col-sm-4 col-md-3">
+          <div class="galleryImg">
+            <img src="img/gallery/gallery-5.jpg" alt="gallery" width="100%" style="transition: 0.5s;">
+          </div>
+        </div>
+        <div class="galleryCol col-sm-4 col-md-3">
+          <div class="galleryImg">
+            <img src="img/gallery/gallery-6.jpg" alt="gallery" width="100%" style="transition: 0.5s;">
+          </div>
+        </div>
+        <div class="galleryCol col-sm-4 col-md-3">
+          <div class="galleryImg">
+            <img src="img/gallery/gallery-7.jpg" alt="gallery" width="100%" style="transition: 0.5s;">
+          </div>
+        </div>
+        <div class="galleryCol col-sm-4 col-md-3">
+          <div class="galleryImg">
+            <img src="img/gallery/gallery-8.jpg" alt="gallery" width="100%" style="transition: 0.5s;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5 mb-5" id="Contact">
+    <div class="service container text-center mb-5">
+      <h2>Contact</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+        sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <!-- div element for map -->
+    <iframe style="border:0; width: 100%; height: 350px;"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+      frameborder="0" allowfullscreen=""></iframe>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="contHover container">
+          <div class="row">
+            <div class="col-2">
+              <div class="contIcon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+            </div>
+            <div class="contText col-10">
+              <h2>Location:</h2>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+          </div>
+        </div>
+        <div class="contHover container">
+          <div class="row">
+            <div class="col-2">
+              <div class="contIcon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div class="contText col-10">
+              <h2>Email:</h2>
+              <p>info@example.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contHover container">
+          <div class="row">
+            <div class="col-2">
+              <div class="contIcon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+            </div>
+            <div class="contText col-10">
+              <h2>Call:</h2>
+              <p>+1 5589 55488 55</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="container-fluid">
+          <form>
+            <div class="row mb-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Your Email" name="email">
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+            </div>
+            <div class="row" style="padding-right: 12px; padding-left: 12px;">
+              <textarea class="form-control" rows="5" name="text" placeholder="Message"></textarea>
+            </div>
+          </form>
+          <div class="container text-center d-sm-none" style="margin-top: 30px;">
+            <button type="submit" style="background: #1977cc; border: 0;padding: 10px 35px;color: #fff;
+            transition: 0.4s; border-radius: 50px;">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-2">
+          <div class="footText">
+            <h2>Medilab</h2>
+            <div style="line-height: 0.7; color: rgb(119, 119, 119); margin-bottom: 30px;">
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p>United States</p>
+            </div>
+            <p><b>Phone:</b> +1 5589 55488 55</p>
+            <p><b>Email:</b> info@example.com</p>
+          </div>
+        </div>
+        <div class="col-md-2 mb-2">
+          <div class="footLink">
+            <h4>Useful Links</h4>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Home
+              </p>
+            </a>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>About
+                Us</p>
+            </a>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Services</p>
+            </a>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Terms
+                Of Service</p>
+            </a>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Privacy
+                Policy</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="footLink">
+            <h4>Our Services</h4>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Web
+                Design</p>
+            </a>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Web
+                Development</p>
+            </a>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Product
+                Management</p>
+            </a>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Marketing</p>
+            </a>
+            <a href="#">
+              <p><i class="fa-solid fa-angle-right me-1" style="color: rgb(25, 119, 204);"></i>Graphic
+                Design</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="footText text-wrap">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form class="footForm">
+              <input type="email" name="email" style="border: 0; width: 67%;">
+              <input type="submit" value="Subscribe"
+                style="background: #0576d8; color: #fff; padding: 2%; border-radius: 50px;">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script>
+    function initMap() {
+      let location = { lat: 6.431, lng: 3.416 };
+      let map = new google.maps.Map(
+        document.getElementById('map'), { zoom: 4, center: location }
+      );
+      let marker = new google.maps.Marker({ position: location, map: map })
+    }
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVNkbRaOXTSVSLY3oTlfm-OMFPh5iDJ28&callback=initMap"></script>
+  <script src="./lib/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="./lib/fontawesome/js/all.min.js"></script>
+  <script src="./lib/glightbox-master/dist/js/glightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="./lib/OwlCarousel/dist/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoPlay: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        1000: {
+          items: 2,
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
